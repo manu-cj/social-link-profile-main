@@ -15,18 +15,25 @@
   </style>
 </head>
 <body>
-  <img src="../social-link-profile-main/4887179.png"/>
+  <div>
+    
+  </div>
+  
   
   <div class="user-card">
-    <div width="500" height="600" class="picture-profil-card"></div>
+
+      <img src="./assets/images/avatar-jessica.jpeg" class="picture-profil-card" />
     <h2 class="user-name-card">Jessica Randall</h2>
     <p class="country-data-card">London, United Kingdom</p>
     <p class="bio-profil-card">"Front-end developer and avid reader."</p>
-    <p class="card-elements">GitHub</p>
-    <p class="card-elements">Frontend Mentor</p>
-    <p class="card-elements">LinkedIn</p>
-    <p class="card-elements">Twitter</p>
-    <p class="card-elements">Instagram</p>
+    
+    <div class="social-link-div">
+      <p class="card-elements">GitHub</p>
+      <p class="card-elements">Frontend Mentor</p>
+      <p class="card-elements">LinkedIn</p>
+      <p class="card-elements">Twitter</p>
+      <p class="card-elements">Instagram</p>
+    </div>
   </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
@@ -51,8 +58,8 @@ body {
 }
 
 .user-card {
-  width: 45%;
-  height: 500px;
+  width: 400px;
+  height: 650px;
   border: 2px black solid;
   border-radius: 10px;
   margin-top: 50px;
@@ -65,22 +72,31 @@ body {
   justify-content: space-around;
 }
 
+
 .picture-profil-card {
-  width: 50%;
-  height: 60%;
+  width: 80px;
+  height: 80px;
   border: 1px white solid;
   border-radius: 100%;
-  background-image: url(../social-link-profile-main/4887179.png);
+  margin-top: 15%;
 }
 
 .country-data-card {
   color: yellow;
+  font-size: small;
 }
+
+.social-link-div {
+  width: 80%;
+  height: 60%;
+  margin: 25px;
+}
+
 .card-elements {
-  width: 90%;
-  height: 80px;
-  margin: 5px;
-  padding: 10px;
+  width: 95%;
+  height: 15%;
+  margin: 10px;
+  padding: 15px;
   border: 1px white solid;
   border-radius: 10px;
   text-align: center;
@@ -93,9 +109,9 @@ body {
   cursor: pointer;
 }
 
-.user-name-card, .country-data-card, .bio-profil-card {
-  margin: 5px;
-}
 
+.bio-profil-card{
+  margin-top: 30px;
+}
 
 </style>
